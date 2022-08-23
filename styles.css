@@ -1,6 +1,10 @@
-div {
+main div {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   background-color: hotpink;
+  position: absolute;
+}
+main {
+  position: relative;
 }
