@@ -1,8 +1,8 @@
-document.querySelectorAll("div").forEach((div) => {
-  div.style.transform = `translate(${Math.random() * 1000}px, ${
-    Math.random() * 1000
-  }px)`;
-  div.style.backgroundColor = `rgb(${Math.random() * 255}, ${
-    Math.random() * 255
-  }, ${Math.random() * 255})`;
-});
+setInterval(() => {
+  document.querySelectorAll("div").forEach((div) => {
+    div.style.transform = `translate(${Math.random() * 100}vw, ${
+      Math.random() * 100
+    }vh)`;
+    div.style.backgroundColor = `hsl(${Math.random() * 360}, 70%, 70%)`;
+  });
+}, 5000);
